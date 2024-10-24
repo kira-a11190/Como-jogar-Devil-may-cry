@@ -1,0 +1,76 @@
+body {
+    margin: 30%;
+    text-align: center;
+    background-color: rgb(255, 0, 0);
+}
+{
+border-radius: 50%;
+width: 200;
+height: 200;
+}
+#inicio{
+border: 30;
+background: linear-gradient( #00ff62 0%, #031f3b 100%);
+display: table;
+height: 100%;
+width: 100%;
+z-index: 9;
+}
+h1{
+font-size: 40px;
+font-family: 'Press Start 2P', cursive;
+font-weight: 300;
+}
+.paralax-inner {
+display: table-cell;
+vertical-align: middle;
+}
+.mynavbar{
+position:sticky
+top: 0;
+z-index: 9;
+}
+.links{
+display: inline;
+padding-left: 33px;
+padding-right: 25;
+font-family: ' Press Start 2P',cursive;
+font-size: 20px;
+}
+.links:hover{
+font-size: 25px;
+}
+#sobre iframe{
+    border: 0;
+    background: linear-gradient( #00ff62 0%, #031f3b 100%);
+    display: table;
+    height: 100%;
+    width: 100%;
+    z-index: 9;
+}
+#como jogar iframe{
+background: rgb(110, 0, 0);
+border: 0;
+background: linear-gradient( #00ff62 0%, #031f3b 100%);
+display: table;
+height: 100%;
+width: 100%;
+z-index: 9;
+}
+#videos iframe{
+background: #0563c0;
+border: 0;
+background: linear-gradient( #00ff62 0%, #031f3b 100%);
+display: table;
+z-index: 5;
+}
+#contatos {
+background: #00ff62;
+}
+#contatos iframe{
+width: 75%;
+}
+.inicio_1 h1 {
+display: inline;
+padding-bottom: 20px;
+}
